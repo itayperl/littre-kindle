@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="a5f82220-e59d-430b-b54e-b4f037ad11b0" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Le Littré</dc:title>
+    <dc:language>fr</dc:language>
+    <dc:description>Dictionnaire de la langue française par Ëmile Littré</dc:description>
+    <dc:date>3/8/2014</dc:date>
+    <meta name="cover" content="cover" />
+    <x-metadata>
+      <DictionaryInLanguage>fr</DictionaryInLanguage>
+      <DictionaryOutLanguage>fr</DictionaryOutLanguage>
+    </x-metadata>
+  </metadata>
+  <manifest>
+      <item id="frontmatter" media-type="text/x-oeb1-document" href="frontmatter.html"></item>
+      <item id="cover" media-type="image/jpeg" href="cover.jpg"></item>
+      <item id="dict" media-type="text/x-oeb1-document" href="dict.html"></item>
+  </manifest>
+  <spine>
+      <itemref idref="dict"></itemref>
+  </spine>
+</package>
