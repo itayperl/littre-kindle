@@ -4,6 +4,13 @@ littre-kindle
 This project aims to create a French-French dictionary for the Kindle. The
 dictionary will be based on [XMLittre](http://www.littre.org) and [LeFFF](http://alpage.inria.fr/~sagot/lefff.html).
 
+Dependencies
+------------
+
+- Kindlegen v2.8 (Linux version [here](http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_8.tar.gz)). The newer v2.9 hangs (at least on Linux).
+- Python 2.7
+- cURL
+
 Kindle issues
 -------------
 
